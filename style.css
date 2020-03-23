@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: midnightblue;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+h1,
+h4,
+p {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h4 {
+  color: steelblue;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+img {
+  display: block;
+  max-width: 16em;
+  margin-right: 4em;
+  box-shadow: 0.50em 0.50em 0.50em 0.50em lightsteelblue;
+}
+
+.hero {
+  display: flex;
+  max-width: 64em;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 7em 1em;
+  align-items: center;
+}
+
+button {
+  font: inherit;
+  padding: 1em;
+  background-color: midnightblue;
+  color: white;
+  /*This make the cursor convert into a pointer
+  when is above the button.*/
+  cursor: pointer;
+}
